@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accueil"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_accueil" />
+        <item
+            android:id="@+id/nav_matiere_et_produits"
+            android:icon="@drawable/ic_mat_et_produits"
+            android:title="@string/matiere_et_produits" />
+        <item
+            android:id="@+id/nav_equipements"
+            android:icon="@drawable/ic_equipements"
+            android:title="@string/equipements" />
+        <item
+            android:id="@+id/nav_tache_et_exigences"
+            android:icon="@drawable/ic_tache_et_exigences"
+            android:title="@string/tache_et_exigences" />
+        <item
+            android:id="@+id/nav_individu"
+            android:icon="@drawable/ic_person"
+            android:title="@string/individu" />
+        <item
+            android:id="@+id/nav_env_de_travail"
+            android:icon="@drawable/ic_work"
+            android:title="@string/env_de_travail" />
+        <item
+            android:id="@+id/nav_res_humaines"
+            android:icon="@drawable/ic_people"
+            android:title="@string/res_humaines" />
+
+    </group>
+
+    <item android:title="Communiquer">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/envoyer_mail" />
+        </menu>
+    </item>
+
+</menu>
